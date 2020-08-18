@@ -6,19 +6,19 @@ require "whatsup_github/version"
 Gem::Specification.new do |spec|
   spec.name          = "whatsup_github"
   spec.version       = WhatsupGithub::VERSION
-  spec.authors       = ["Dima Shevtsov"]
+  spec.authors       = ["Dima Shevtsov/DBOOTH"]
   spec.email         = ["shevtsov@adobe.com"]
 
-  spec.summary       = %q{Collect info from GitHub pull requests.}
-  spec.homepage      = "https://github.com/dshevtsov/whatsup_github"
+  spec.summary       = %q{Collect RELEASENOTES from GitHub pull requests.}
+  spec.homepage      = "https://github.com/dobooth/whatsup_github"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
   if spec.respond_to?(:metadata)
     spec.metadata["homepage_uri"] = spec.homepage
-    spec.metadata["source_code_uri"] = "https://github.com/dshevtsov/whatsup_github"
-    spec.metadata["changelog_uri"] = "https://github.com/dshevtsov/whatsup_github/blob/master/CHANGELOG.md"
+    spec.metadata["source_code_uri"] = "https://github.com/dobooth/whatsup_github"
+    spec.metadata["changelog_uri"] = "https://github.com/dobooth/whatsup_github/blob/master/CHANGELOG.md"
   else
     raise "RubyGems 2.0 or newer is required to protect against " \
       "public gem pushes."
